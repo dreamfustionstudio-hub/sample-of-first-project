@@ -1,0 +1,111 @@
+*{
+    color: rgb(0, 0, 0);
+    border-color: white;
+}
+
+.hh{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px 15px 75px 75px;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 0.5em;
+    margin: 0.1em;
+    text-align: center;
+    color: #73ac4e;
+}
+
+.section1{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5%;
+    border-radius: 75px 75px 0px 0px;
+    background-color: #ffffff;
+    color: #000008;
+    text-transform: uppercase;
+    margin: 0px 0.2px 0px 0.1px;
+    font-size: 1.5rem;
+}
+
+
+.descriptionlist {
+    border: 2px solid rgb(82, 13, 173);
+    padding: 1.5em 1.5em 1.5em 10em;
+    border-radius: 50px;
+    background-color: rgb(77, 216, 89);
+}
+
+
+
+body{
+    background-color: rgb(0, 0, 0)
+}
+button{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 0.3em;
+    margin: 0.5em;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: rgb(77, 216, 89);
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+input, button{
+    font-size: inherit;
+}
+
+.orderlist{
+    list-style-type: none;
+}
+.list{
+    display: inline-block;
+    margin-inline: 2em;
+    color: rgb(255, 0, 0);
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+a:active{
+    color: rgb(0, 17, 255);
+}
+
+a:hover {
+    color: rgb(255, 0, 212);
+    text-decoration: underline;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(245, 244, 244);
+    margin: 150px 0px 15px 0px;
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 0.3em 0.2em 0.3em 0.5em;
+    margin: 0em 0.1em 0.2em 0.1em;
+    font-size: 1rem;
+}
+
+.div1{
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    padding: 2em;
+    background-color: black;
+    color: white;
+    float: left;
+    margin-right: 2vw;
+}
+
+ 

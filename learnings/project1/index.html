@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="my first page">
+    <!--this is simple page-->
+    <title>my first page</title>
+    <link rel="icon" href="images/download.png" type="image/png">
+</head>
+<body style="text-align:center; background-color: black; color: aliceblue; height: 100vh; text-transform: uppercase;">
+    <!--heading-->
+    <header>
+        <h1> hello world </h1> 
+        <hr>
+        <h2> welcome to my first page </h2>
+    </header>
+    <p> <em>I am <strong style="color: red; line-height: 1.5;">KISHORE</strong></em> <br><br> i am Learning HTML and CSS</p>
+     <address style="color: rgb(15, 126, 126);">123 Main Street, City, State 12345</address>
+     
+     <!--in this video we will cover the basics of HTML and CSS-->
+    <ul style="display: inline-block; text-align:left;">
+        <li>HTML stands for HyperText Markup Language</li>
+        <li>CSS stands for Cascading Style Sheets</li>
+        <li>HTML is used to structure the conent of a web page</li>
+        <li title="Cascading Style Sheets">CSS is used to style the <abbr title="look">appearance</abbr> of a web page</li>  
+    </ul>  
+    <br>
+    <!--description list-->
+        <dl style="display: inline-block; text-align: left;"> 
+                    <dt>website 1 learning</dt>
+                <dd><a href="https://validator.w3.org/" target="_blank" >1.W3C website 1 for html</a></dd>
+                <dd><a href="https://developer.mozilla.org/en-US" target="_blank" >2.Mozilla website for html</a></dd>
+            <dt>samples</dt>
+                <dd><a href="aboutme.html">1.sample of my second page</a></dd>
+            <dt>for free images legal</dt>
+                <dd><a href="https://unsplash.com/" target="_blank">1.Unsplash</a></dd>
+                <dd><a href="https://www.pexels.com/" target="_blank">2.pexels</a></dd>
+                <dd><a href="https://pixabay.com/" target="_blank">3.pixabay</a></dd>
+                <dd><a href="https://gratisography.com/" target="_blank">4.gratisography</a></dd>
+            <dt>for croping</dt>
+                <dd><a href="https://www.irfanview.com/" target="_blank">1.IrfanView</a></dd>
+                <dd><a href="https://www.canva.com/" target="_blank">2.Canva</a></dd>
+            <dt>for compress an image</dt>
+                <dd><a href="https://tinypng.com/" target="_blank">1.TinyPNG</a></dd>
+            <dt>formate of coding</dt>
+                <dd><a href="https://learntheweb.courses/topics/html-semantics-cheat-sheet/" target="_blank">1.HTML Semantics Cheat Sheet</a></dd>
+            <dt>shortcuts</dt>
+                <dd><a href="https://htmlcheatsheet.com/" target="_blank">1.HTML Cheatsheet</a></dd>
+        </dl>
+        <hr style="border: 1px solid rgb(32, 192, 67);">
+    <nav>
+        <ul style="display: inline-block;text-align: left;">
+            <li><a href="#ch1">chapter 1</a></li>
+            <li><a href="#ch2">chapter 2</a></li>
+            <li><a href="#ch3">chapter 3</a></li>
+            <li><a href="#sample1">sample project</a></li>
+        </ul>
+    </nav>
+
+        <hr style="border: 1px solid rgb(46, 145, 16);">
+
+    <section aria-label="primary content">
+        <h2 id="ch1">this is chapter 1</h2>
+            <p> in this section we will learn about HTML basics </p>
+    </section>
+        
+    <hr style="border: 1px solid rgb(46, 145, 16);">
+
+    <section id="ch2">
+        <h2>this is chapter 2</h2>
+            <p> in this section we will learn about CSS basics </p>
+    </section>
+
+<hr style="border: 1px solid rgb(32, 192, 67);">
+    
+    <section id="ch3">
+        <h2>this is chapter 3</h2>
+            <p> in this section we will learn about HTML and CSS together </p>
+    </section>   
+
+<hr style="border: 1px solid rgb(32, 192, 67);">
+
+    <h1 id="sample1"> <a href="aboutme.html" >sample project</a> </h1>
+    <hr style="border: 1px solid rgb(32, 192, 67);">
+<article>
+    <h2>contact me</h2>
+    <form action="https://httpbin.org/get" method="get">
+        <p>
+            <label for="firstName">first name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="your first name" autocomplete="on" required>
+        </p>
+        <p>
+            <label for="lastName">last name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="your last name" autocomplete="on" required>
+        </p>
+        <p>
+           <label for="password">password:</label>
+            <input type="password" id="password" name="password" placeholder="your password" required>
+        </p>
+        <p><label for="phone">phone number:</label>
+           <input type="tel" id="phone" name="phone" placeholder="9199999999" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+        </p>
+        <p>
+            <label for="fav decate">favorite decate:</label>
+            <input type="number" id="fav decate" name="fav decate" min="1950" max="2020" value="1980" step="10"> 
+        </p>
+        <p>
+            <label for="age">age:</label>
+            <input type="date" id="age" name="age" > 
+        </p>
+        <p>
+            <label for="content">fav content</label>
+        <select name="content" id="content" multiple size="1">
+            <optgroup label="choose the any one from the below">
+                <option value="none">none of the above</option>
+                <option value="html">html in duddu channel</option>
+                <option value="css">css in duddu channel</option>
+            </optgroup> 
+        </select>
+        </p>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+    </form>
+</article>
+    <hr style="border: 1px solid rgb(32, 192, 67);">
+<aside>
+    <details>
+        <summary> this is my sample project </summary>
+        <p> in this project i have created a simple webpage about me using HTML and CSS </p>
+        <p> i have used different HTML tags and CSS properties to style the webpage </p>
+        <p> you can click on the link above to see the project </p> 
+     </details>
+</aside>
+     <hr style="border: 1px solid rgb(32, 192, 67);">
+     
+    <p>&lt;&lt;to create a table&gt;&gt;</p>
+    
+    <p><a href="#top">back to top</a></p>
+
+<br>
+</body>
+</html>

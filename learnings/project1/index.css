@@ -1,0 +1,7 @@
+table, tr, td, th,caption{ border: 1px solid whitesmoke; 
+    color: rgb(255, 255, 255); 
+    margin: auto; 
+    background-color: blue; 
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;}

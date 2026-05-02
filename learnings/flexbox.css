@@ -1,0 +1,50 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: 1400px;
+    height: 1500px;
+}
+
+.containers{
+    min-width: 200vh;
+    height: auto;
+    margin-inline: auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 10px;
+    gap: 100px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translatex(-50%);
+    align-items: flex-start;
+    background-color: rgba(214, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6{
+    min-width: 100px;
+    background-color: hsla(0, 3%, 7%, 0.288);
+    color: rgb(255, 255, 255);
+    border-radius: 35px;
+    display: grid;
+    justify-items: center;
+    border: 2px solid rgb(255, 255, 255);
+ }
+
+ a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s
+ }
+.item1, .item2, .item3, .item4, .item5, .item6, a:visited{
+     background-color: hsla(0, 3%, 7%, 0.288);
+    color: rgb(255, 255, 255);
+}
+.item1, .item2, .item3, .item4, .item5, .item6, a:hover {
+  background-color: rgba(60, 255, 0, 0.301);
+  backdrop-filter: blur(10px); /* glass effect */
+}
